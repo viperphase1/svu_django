@@ -1,0 +1,439 @@
+[{
+    "model": "lmsdev.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$svNslIU9P9GXgzCLJnyla9$wlGLkPcyXrYg94EIihpjaG8srOgWB+C12KFImBKMLrg=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "test",
+      "first_name": "",
+      "last_name": "",
+      "email": "test@test.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-05-23T04:18:49.073Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 1,
+    "fields": {
+      "text": "Computer Science."
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 2,
+    "fields": {
+      "text": "Lists"
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 3,
+    "fields": {
+      "text": "Dictionaries"
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 4,
+    "fields": {
+      "text": "Iterables"
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 5,
+    "fields": {
+      "text": "Mutable"
+    }
+  },
+  {
+    "model": "lmsdev.tag",
+    "pk": 6,
+    "fields": {
+      "text": "Loop"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 1,
+    "fields": {
+      "text": "Multiple choice"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 2,
+    "fields": {
+      "text": "Multiple answer"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 3,
+    "fields": {
+      "text": "True/False"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 4,
+    "fields": {
+      "text": "Essay"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 5,
+    "fields": {
+      "text": "Short Answer"
+    }
+  },
+  {
+    "model": "lmsdev.question_type",
+    "pk": 6,
+    "fields": {
+      "text": "Fill in the blanks"
+    }
+  },
+  {
+    "model": "lmsdev.response_option",
+    "pk": 1,
+    "fields": {
+      "text": "Is iterable",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "lmsdev.response_option",
+    "pk": 2,
+    "fields": {
+      "text": "Is mutable",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "lmsdev.response_option",
+    "pk": 3,
+    "fields": {
+      "text": "Is found at the beach",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "lmsdev.response_option",
+    "pk": 4,
+    "fields": {
+      "text": "Is the name of a song",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "lmsdev.department",
+    "pk": 1,
+    "fields": {
+      "title": "Computer Science"
+    }
+  },
+  {
+    "model": "lmsdev.department",
+    "pk": 2,
+    "fields": {
+      "title": "History"
+    }
+  },
+  {
+    "model": "lmsdev.department",
+    "pk": 3,
+    "fields": {
+      "title": "Math"
+    }
+  },
+  {
+    "model": "lmsdev.department",
+    "pk": 4,
+    "fields": {
+      "title": "Science"
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 1,
+    "fields": {
+      "title": "Algebra 1",
+      "content": "Algebra is a branch of mathematics in which arithmetic operations and other formal manipulations are applied to abstract symbols rather than specific numbers. Geometry is the branch of mathematics that deals with the shape of objects, their spatial relations, and the properties of the space the objects are in."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 2,
+    "fields": {
+      "title": "Algebra 2",
+      "content": "Algebra is useful in many jobs"
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 3,
+    "fields": {
+      "title": "Trig 1",
+      "content": "The study of angles and of the angular relationships of planar and three-dimensional figures is known as trigonometry. The trigonometric functions (also called the circular functions) comprising trigonometry are the cosecant cscx, cosine cosx, cotangent cotx, secant secx, sine sinx, and tangent tanx. The inverses of these functions are denoted csc^(-1)x, cos^(-1)x, cot^(-1)x, sec^(-1)x, sin^(-1)x, and tan^(-1)x. Note that the f^(-1) notation here means inverse function, not f to the -1 power."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 4,
+    "fields": {
+      "title": "Trig 2",
+      "content": "Trigonometry is used in all types of work including engineering and 3d modelling."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 5,
+    "fields": {
+      "title": "Geometry 1",
+      "content": "The study of shapes and stuff."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 6,
+    "fields": {
+      "title": "Graphs 1",
+      "content": "The study of pictures with lines and dots that noone understands!."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 7,
+    "fields": {
+      "title": "Intro to Proofs",
+      "content": "The study of methods of showing whether something is a truth or not in mathematical terms."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 8,
+    "fields": {
+      "title": "Bananas",
+      "content": "Bananas are radioactive. Bananas contain potassium, and because potassium decays, the yellow fruit becomes slightly radioactive."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 9,
+    "fields": {
+      "title": "Napolean",
+      "content": "Napoleon Bonaparte (born Napoleone Buonaparte; 15 August 1769 – 5 May 1821), later known by his regnal name Napoleon I, was a French military commander and political leader who rose to prominence during the French Revolution and led successful campaigns during the Revolutionary Wars."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 10,
+    "fields": {
+      "title": "King Henry III",
+      "content": "King Henry III', `Henry III (1 October 1207 – 16 November 1272), also known as Henry of Winchester, was King of England, Lord of Ireland, and Duke of Aquitaine from 1216 until his death in 1272. The son of King John and Isabella of Angoulême, Henry assumed the throne when he was only nine in the middle of the First Barons' War. Cardinal Guala Bicchieri declared the war against the rebel barons to be a religious crusade and Henry's forces, led by William Marshal, defeated the rebels at the battles of Lincoln and Sandwich in 1217."
+    }
+  },
+  {
+    "model": "lmsdev.block",
+    "pk": 11,
+    "fields": {
+      "title": "Quetzalcoatl",
+      "content": "new Page('Quetzalcoatl', `Quetzalcoatl is a deity in Aztec culture and literature. Among the Aztecs, he was related to wind, Venus, Sun, merchants, arts, crafts, knowledge, and learning. He was also the patron god of the Aztec priesthood.[5] He was one of several important gods in the Aztec pantheon, along with the gods Tlaloc, Tezcatlipoca and Huitzilopochtli. The two other gods represented by the planet Venus are Tlaloc (ally and the god of rain) and Xolotl (psychopomp and its twin).`)"
+    }
+  },
+  {
+    "model": "lmsdev.question",
+    "pk": 1,
+    "fields": {
+      "title": "Question 1",
+      "prompt": "Select ALL answers that apply to a Python dictionary",
+      "response_when_correct": null,
+      "response_when_incorrect": null,
+      "manual_grade": false,
+      "question_type": 2,
+      "tags": [
+        1,
+        2
+      ],
+      "response_options": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 1,
+    "fields": {
+      "title": "Algebra",
+      "blocks": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 2,
+    "fields": {
+      "title": "Trigonometry",
+      "blocks": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 3,
+    "fields": {
+      "title": "Geometry",
+      "blocks": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 4,
+    "fields": {
+      "title": "Graphs",
+      "blocks": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 5,
+    "fields": {
+      "title": "Radioactivity",
+      "blocks": [
+        8
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 6,
+    "fields": {
+      "title": "Napolean",
+      "blocks": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 7,
+    "fields": {
+      "title": "King Henry III",
+      "blocks": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.page",
+    "pk": 8,
+    "fields": {
+      "title": "Quetzalcoatl",
+      "blocks": [
+        11
+      ]
+    }
+  },
+  {
+    "model": "lmsdev.course",
+    "pk": 1,
+    "fields": {
+      "title": "Biology 100",
+      "department": null
+    }
+  },
+  {
+    "model": "lmsdev.course",
+    "pk": 2,
+    "fields": {
+      "title": "College Algebra",
+      "department": 3
+    }
+  },
+  {
+    "model": "lmsdev.course",
+    "pk": 3,
+    "fields": {
+      "title": "Civilization 1",
+      "department": 2
+    }
+  },
+  {
+    "model": "lmsdev.section",
+    "pk": 1,
+    "fields": {
+      "course": 1,
+      "title": "Biology 100",
+      "year": 2024,
+      "semester": "Fall",
+      "term": null,
+      "pages": [
+        5
+      ],
+      "teachers": [],
+      "students": [],
+      "assistants": [],
+      "observers": []
+    }
+  },
+  {
+    "model": "lmsdev.section",
+    "pk": 2,
+    "fields": {
+      "course": 2,
+      "title": "College Algebra",
+      "year": 2024,
+      "semester": "Fall",
+      "term": null,
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "teachers": [],
+      "students": [],
+      "assistants": [],
+      "observers": []
+    }
+  },
+  {
+    "model": "lmsdev.section",
+    "pk": 3,
+    "fields": {
+      "course": 3,
+      "title": "Civilization 1",
+      "year": 2024,
+      "semester": "Fall",
+      "term": null,
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "teachers": [],
+      "students": [],
+      "assistants": [],
+      "observers": []
+    }
+  }
+]
