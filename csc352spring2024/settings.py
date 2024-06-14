@@ -67,7 +67,7 @@ REST_FRAMEWORK = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-# CSRF_TRUSTED_ORIGINS = ["https://svu-csc-django-backend.online"]
+CSRF_TRUSTED_ORIGINS = ["https://svu-csc-django-backend.online"]
 
 ROOT_URLCONF = 'csc352spring2024.urls'
 
